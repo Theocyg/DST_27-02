@@ -1,0 +1,3 @@
+SELECT client.id, client.nom_pren,client_menu.mois_annee,client_menu.paiement  FROM client
+INNER JOIN client_menu 
+WHERE client_menu.paiement LIKE "carte" AND client_menu.mois_annee LIKE"%22"

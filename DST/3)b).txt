@@ -1,0 +1,2 @@
+SELECT Count(*)  from client_menu where sauce LIKE('arissa') 
+OR sauce LIKE('%ayonnaise%')
